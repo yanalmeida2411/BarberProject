@@ -1,0 +1,8 @@
+.greeting{
+    text-align: center;
+    background-color: #80B0E0;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index:1;
+}

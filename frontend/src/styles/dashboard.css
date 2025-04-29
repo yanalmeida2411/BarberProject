@@ -1,0 +1,177 @@
+body {
+  overflow-x: hidden;
+}
+  
+.all-content-dashboard{
+  position: relative;
+  left: 16%;
+  top: 3rem;
+  width: 82vw;
+}
+
+.info-appointments{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  gap: 10px;
+}
+
+.info-appointments input{
+  padding: 5px 10px;
+  border: none;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.568);
+  background-color: transparent;
+}
+
+.info-appointments button{
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #80B0E0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
+  color: white;
+}
+
+.info-appointments button:hover{
+  cursor: pointer;
+  scale: 0.95;
+}
+
+.all-content-dashboard .info-status{
+  display: flex;
+  width:100vw;
+  height: 10vh;
+  gap: 100px;
+  margin-top: 1rem;
+  text-align: center;
+  margin-left: 2%;
+}
+
+.status-appointments {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+
+} 
+
+.status-appointments-each-appointment {
+  padding: 1rem;
+  border-radius: 8px;    
+  text-align: center;
+  height: 68vh;
+  overflow-y: scroll;
+  position: relative;
+  width: 35vw;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
+  color: rgba(0, 0, 0, 0.568);
+}
+.status-appointments-each-appointment p{
+  display: flex;
+  align-items: center;
+  height: 90%;
+  font-size: 20px;
+}
+  
+.map-ul {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  background-color: white;
+  padding: 0.6rem;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
+}
+
+.map-ul li{
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-ul li:first-child{
+  margin-top: 25px;
+}
+
+.map-ul span{
+  display: flex;
+  text-align: center;
+}
+
+.map-ul button{
+  padding: 8px;
+  opacity: 0.8;
+  border: none;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.692);
+  background-color: rgba(128, 128, 128, 0.575);
+}
+
+.map-ul button:hover{
+  cursor: pointer;
+  opacity: 1;
+  scale: 0.95;
+}
+
+.concluded-button,.cancel-button,.no-concluded-button{
+  border-radius: 5px;
+}
+
+.status-appointments-each-appointment li {
+  padding: 0.2rem 0;
+  border-bottom: 1px solid #ddd;
+  color: rgba(0, 0, 0, 0.568);
+}
+.status-appointments-each-appointment li:last-child {
+  border-bottom: none;
+}
+.concluded{
+  background-color: rgba(0, 128, 0, 0.507);
+}
+
+.no-concluded {
+  background-color: rgba(255, 255, 0, 0.507);
+}
+
+.canceled{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.remove-button{
+  position: absolute;
+  height: 3vh;
+  top: 5px;
+  right: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.remove-button:hover{
+  cursor: pointer;
+  scale: 0.95;
+}
+
+.appointments-content,.concluded-content,.no-concluded-content,.canceled-content,.total-content{
+  padding: 0px 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
+  color: rgba(0, 0, 0, 0.568);
+}
+
+.canceled-content{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.no-concluded-content{
+  background-color: rgba(255, 255, 0, 0.507);
+}
+
+.concluded-content{
+  background-color: rgba(0, 128, 0, 0.507);
+}
+
+.appointments-content,.total-content{
+  background-color: #80B0E0;
+}

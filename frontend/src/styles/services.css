@@ -1,0 +1,45 @@
+.services-component{ 
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 32vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
+    color: rgba(0, 0, 0, 0.568);
+    background-color: #80B0E0;
+
+
+}
+.services-component img{
+    border-radius: 100px;
+}
+.services-component span {
+    margin-top: 1rem;
+}
+
+.all-services-content{
+    margin-left: 14.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.all-services-content h1{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.single-services{
+    display: flex;
+    gap: 30px;
+}
+
+.service-package{
+    display: flex;
+    gap: 30px;
+}
