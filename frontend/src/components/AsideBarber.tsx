@@ -9,8 +9,17 @@ const AsideBarber = () => {
     return (
         <>
             <aside className='aside-admin'>
-                <Image src='/logoBarber.jpg' width={150} height={150} alt='x' />
+            <h1>Aura for Barbers</h1>
                 <ul className='services'>
+                <li className={pathname === "/inicio" ? 'current-page ' : undefined}>
+                        <Link href={"/inicio"}
+                        >
+                            Agendamentos
+                        </Link></li>
+                <li className={pathname === "/inicio/barbeiros" ? 'current-page ' : undefined}>
+                        <Link href={"/inicio/barbeiros"}>
+                            Barbeiros
+                        </Link></li>
                     <li className={pathname === "/" ? 'current-page ' : undefined}>
                         <Link href={"/"}
                         >

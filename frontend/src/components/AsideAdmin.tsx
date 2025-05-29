@@ -9,12 +9,17 @@ const AsideAdmin = () => {
     return (
         <>
             <aside className='aside-admin'>
-                <Image src='/logoBarber.jpg' width={150} height={150} alt='x' />
+                <h1>Aura for Barbers</h1>
                 <ul className='services'>
                     <li className={pathname === "/inicioAdmin" ? 'current-page ' : undefined}>
                         <Link href={"/inicioAdmin"}
                         >
                             Agendamentos
+                        </Link></li>
+                        <li className={pathname === "/controle" ? 'current-page ' : undefined}>
+                        <Link href={"/inicioAdmin/controle"}
+                        >
+                            Controle Geral
                         </Link></li>
                     <li className={pathname === "/inicioAdmin/dashboard" ? 'current-page ' : undefined}>
                         <Link href={"/inicioAdmin/dashboard"}>

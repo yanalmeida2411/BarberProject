@@ -20,7 +20,7 @@ body {
   padding: 5px 10px;
   border: none;
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.568);
+  color: #2D336B;
   background-color: transparent;
 }
 
@@ -28,7 +28,7 @@ body {
   padding: 5px 20px;
   border-radius: 10px;
   border: none;
-  background-color: #80B0E0;
+  background-color: #2D336B;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
   color: white;
 }
@@ -36,6 +36,7 @@ body {
 .info-appointments button:hover{
   cursor: pointer;
   scale: 0.95;
+  background-color: #7886C7;
 }
 
 .all-content-dashboard .info-status{
@@ -63,21 +64,24 @@ body {
   overflow-y: scroll;
   position: relative;
   width: 35vw;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
   color: rgba(0, 0, 0, 0.568);
+  background-color: #A9B5DF;
+  color: #2D336B;
 }
 .status-appointments-each-appointment p{
   display: flex;
   align-items: center;
   height: 90%;
   font-size: 20px;
+  color: #2D336B;
 }
   
 .map-ul {
   position: relative;
   font-size: 18px;
+  margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: white;
+  background-color: #2D336B;
   padding: 0.6rem;
   border-radius: 4px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
@@ -102,7 +106,7 @@ body {
   opacity: 0.8;
   border: none;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.692);
-  background-color: rgba(128, 128, 128, 0.575);
+  background-color: #A9B5DF;
 }
 
 .map-ul button:hover{
@@ -118,21 +122,21 @@ body {
 .status-appointments-each-appointment li {
   padding: 0.2rem 0;
   border-bottom: 1px solid #ddd;
-  color: rgba(0, 0, 0, 0.568);
+  color: #FFF2F2;
 }
 .status-appointments-each-appointment li:last-child {
   border-bottom: none;
 }
 .concluded{
-  background-color: rgba(0, 128, 0, 0.507);
+  box-shadow: 0px 0px 10px 2px rgba(0, 128, 0, 0.507);
 }
 
 .no-concluded {
-  background-color: rgba(255, 255, 0, 0.507);
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 0, 0.507);
 }
 
 .canceled{
-  background-color: rgba(255, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px 2px rgba(255, 0, 0, 0.5);
 }
 
 .remove-button{
@@ -157,21 +161,22 @@ body {
   flex-direction: column;
   justify-content: center;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
-  color: rgba(0, 0, 0, 0.568);
+  color: #FFF2F2;
 }
 
-.canceled-content{
-  background-color: rgba(255, 0, 0, 0.5);
-}
-
-.no-concluded-content{
-  background-color: rgba(255, 255, 0, 0.507);
+.appointments-content,.total-content,
+.concluded-content,.no-concluded-content,.canceled-content{
+  background-color: #2D336B;
 }
 
 .concluded-content{
-  background-color: rgba(0, 128, 0, 0.507);
+  box-shadow: 0px 0px 10px 2px rgba(0, 128, 0, 0.507);
 }
 
-.appointments-content,.total-content{
-  background-color: #80B0E0;
+.no-concluded-content{
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 0, 0.507);
+}
+
+.canceled-content{
+  box-shadow: 0px 0px 10px 2px rgba(255, 0, 0, 0.5);
 }

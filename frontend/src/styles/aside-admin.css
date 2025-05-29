@@ -1,6 +1,6 @@
 .aside-admin{
     position: fixed;
-    background-color: #80B0E0;
+    background-color: #2D336B;
     width: 15vw;
     height: 100vh;
     text-align: center;
@@ -14,38 +14,40 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    gap: 40px;
+    gap: 25px;
 }
 
-.aside-admin .services:first-child{
-    margin-top: 50%;
+.aside-admin .services li:first-child{
+    margin-top: 15%;
 }
 
 .aside-admin .services li {
     width: 100%;
 }
 
+.aside-admin h1{
+    margin-top: 10%;
+    color: #FFF2F2;
+    font-size: 35px;
+}
+
 .services a {
     display: block; /* ocupa a área do li */
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 0px;
     text-decoration: none;
-    text-align: center;
     transition: background-color 0.3s, color 0.3s;
-    color: white;
+    color: #FFF2F2;
 }
 
 
 .aside-admin .services a:hover {
-    background-color: #B0D0F0;
+    background-color: #7886C7;
     cursor: pointer;
+    color: #FFF2F2;
 }
 
-.aside-admin img{
-    margin-top: 10px;
-    border-radius: 100px;
-}
 .current-page a{
-    background-color: #B0D0F0;
-    color: white;
+    background-color: #7886C7;
+    color: #FFF2F2;
 }

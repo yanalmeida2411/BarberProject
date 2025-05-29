@@ -7,8 +7,8 @@
     justify-content: center;
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
-    color: rgba(0, 0, 0, 0.568);
-    background-color: #80B0E0;
+    color: #FFF2F2;
+    background-color: #2D336B;
 
 
 }
@@ -31,7 +31,7 @@
 .all-services-content h1{
     margin-top: 4rem;
     margin-bottom: 1rem;
-    color: rgba(0, 0, 0, 0.568);
+    color: #2D336B;
 }
 
 .single-services{

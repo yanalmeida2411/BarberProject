@@ -10,7 +10,7 @@
     align-items: center;
     z-index: -1;
     justify-content: center;
-    color: rgba(0, 0, 0, 0.568);
+    color: #2D336B;
 
 }
 
@@ -38,7 +38,7 @@
     font-size: 20px;
     padding: 0.5rem;
     border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692)
+    box-shadow: 0px 2px 4px #2D336B;
 
 }
 
@@ -57,19 +57,20 @@
     padding: 5px 20px;
   border-radius: 10px;
   border: none;
-  background-color: #80B0E0;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.692);
+  background-color: #2D336B;
+  box-shadow: 0px 2px 4px #2D336B;
   color: white;
 }
 .select-current-day-barbers button:hover{
    cursor: pointer;
    scale: 0.95;
+   background-color: #7886C7;
 }
 
 .select-current-day-barbers input{
     padding: 5px 20px;
     border: none;
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.568);
+    color: #2D336B;
     background-color: transparent;
 }
